@@ -8,7 +8,6 @@ async function repositoriesFetcher([url, searchQuery]) {
       per_page: 10,
     },
   });
-
   return res.data.items;
 }
 
